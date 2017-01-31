@@ -35,6 +35,13 @@ $color-black: #fefefe;
     }
   }
 
+  //@import 'modules/filter';
+  .filter-node {
+    input {
+      color: $color-black;
+    }
+  }
+
   //@import 'modules/sidebar';
   .sidebar {
     .infobox, .container {

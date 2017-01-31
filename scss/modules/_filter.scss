@@ -37,4 +37,23 @@
       }
     }
   }
+
+  .filter-node {
+    border: 0;
+    padding: 0 5px;
+    width: 100%;
+
+    input {
+      background: transparent;
+      border: 0;
+      border-bottom: 1px solid $color-primary;
+      font-family: $font-family;
+      outline: none;
+      width: 100%;
+    }
+
+    button {
+      display: none;
+    }
+  }
 }
